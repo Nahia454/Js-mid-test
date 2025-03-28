@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUKET LIST PROJECT</title>
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<h2 class="text">Bucket list</h2>
+<form class="container">
+<p>What do you want? <br>
+<input type="text" id="type"  placeholder="item"><br>
+<select>
+    <option value="item">Drinks</option>
+    <option value="item">Eats</option>
+    <option value="item">Cake</option>
+</select>
+</p>
+<p>
+How many?<br>
+<input type="number"  id="quantity" placeholder="quantity"><br>
+</p>
+<button type="button" onclick="addButton()">Add item</button>
+</form>
+<div>
+<ul id="groceryList"></ul>
+</div>
+<div id="modalContainer"></div>
+
+<script src="./index.js"></script>
+</body>
+</html>

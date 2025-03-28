@@ -1,0 +1,43 @@
+.container{
+    border: 1px solid;
+    width: 200px;
+    padding: 20px;
+    margin: 20px auto;
+
+}
+.text{
+    text-align: center;
+}
+
+body {
+display: block;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.button{
+margin: 5px;
+padding: 5px 10px;
+    
+}
+
+.item {
+    margin: 10px 0;
+}
+.modalContainer{
+    position: fixed;
+    top: 50%;
+    left: 50%;padding: 20px;
+
+}
+
+button[onclick="addButton()"] {
+    color:black;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
